@@ -10,4 +10,22 @@ The Neo Geo was marketed as the first 24-bit system; its CPU is actually a 16/32
 
 ## This Repository
 
-On this Repository, you will find the KiCad Custom Library with definition of SNK's custom chips.
+On this Repository, you will find the KiCad Custom Library with definition of SNK's custom chips:
+
+### Sony Ram ICs
+- CXK5814P Fast Ram : 2048 word x 8 bit High Speed CMOS Static RAM
+- CXK5863AP Fast Ram : 8192 word x 8 bit High Speed CMOS Static RAM
+
+### SNK ICs
+- LSPC2-A2 : NEO-GEO LSPC2 Custom Chip
+- NEO-B1 : Both fix graphics from the S ROM and serialized sprite graphics from the C ROMs are fed to NEO-B1 for display on screen via 2 pairs of alternating line buffers
+- NEO-C1 : Multi-purpose keystone chip used for address decoding, inter-CPU communications, wait cycle generation, and player inputs.
+- NEO-E0 (MV2B) : 24-bit buffer and logic for 68k vector table swapping (Version MV2B)
+- NEO-E0 (MV2F) : 24-bit buffer and logic for 68k vector table swapping (Version MV2F)
+
+### Toshiba
+TC53100AP Rom : 128K Word x 8 bit CMOS Mask Rom
+
+### Others
+UPD4990AC : Serial I/O Calendar & Clock CMOS LSI
+CRE401 : Custom Hybrids ICs
