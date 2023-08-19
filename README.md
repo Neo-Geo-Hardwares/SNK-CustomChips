@@ -10,6 +10,8 @@ The Neo Geo was marketed as the first 24-bit system; its CPU is actually a 16/32
 
 ## This Repository
 
+Thoses ICs where defined based on documentation from [neogeo-dev](https://wiki.neogeodev.org/index.php)
+
 On this Repository, you will find the KiCad Custom Library with definition of SNK's custom chips:
 
 ### Sony Ram ICs
@@ -22,10 +24,14 @@ On this Repository, you will find the KiCad Custom Library with definition of SN
 - **NEO-C1** : Multi-purpose keystone chip used for address decoding, inter-CPU communications, wait cycle generation, and player inputs.
 - **NEO-E0** (_MV2B_) : 24-bit buffer and logic for 68k vector table swapping (Version MV2B)
 - **NEO-E0** (_MV2F_) : 24-bit buffer and logic for 68k vector table swapping (Version MV2F)
+- **NEO-ZMC2** : NEO-ZMC and PRO-CT0 in one package
+- **NEO-IO** : MVS specific chip that does a bunch of unrelated things. 
+
 
 ### Toshiba
-**TC53100AP** : 128K Word x 8 bit CMOS Mask Rom
+- **TC53100AP** : 128K Word x 8 bit CMOS Mask Rom
 
 ### Others
-**UPD4990AC** : Serial I/O Calendar & Clock CMOS LSI
-**CRE401** : Custom Hybrids ICs
+- **UPD4990AC** : Serial I/O Calendar & Clock CMOS LSI
+- **CRE401** : Custom Hybrids ICs
+- **27C1000** : SFIX Rom (27C301)
